@@ -69,6 +69,7 @@ function formatChange(avg) {
 }
 
 function simplyPepeLaugh() {
+    // This function was made by kirby233
     // Display the countdown timer in an element
 
     // Set the date we're counting up from
