@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 for (var p = 0; i < frequency; i++) {
                     if (frequency[p] == maxFreq) {
-                        modes.push(k);
+                        modes.push(p);
                     }
                 }
 
