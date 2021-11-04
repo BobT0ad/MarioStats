@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Vars for Average, Median, Mode, and Mode Occurence Number
             var avgString = ("Average: " + formatChange(avg));
-            var modeString = ("Mode: ");
+            var modeString = ("Mode: " + modes);
             var sumString = ("Sum: " + sum);
             var freqString = ("Frequency: " + maxFreq);
 
