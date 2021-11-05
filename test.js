@@ -37,13 +37,14 @@ document.addEventListener("DOMContentLoaded", function () {
                         modes.push(p);
                     }
                 }
+                var allModes = modes;
 
-            //43 edit
+            //Edit lines 40/46 soon
 
             // Vars for Average, Median, Mode, and Mode Occurence Number
             var avgString = ("Average: " + formatChange(avg));
-            var modeString = ("Mode: " + modes);
-            var sumString = ("Sum: " + sum);
+            var modeString = ("Mode: " + allModes);
+            var sumString = ("Sum: " + formatChange(sum));
             var freqString = ("Frequency: " + maxFreq);
 
 
